@@ -1,0 +1,16 @@
+{
+  "name": "sanity-blog-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client",
+    "sanity"
+  ],
+  "scripts": {
+    "client": "yarn workspace client dev",
+    "sanity": "yarn workspace sanity start"
+  },
+  "author": "ysh1394 <ysh13941394@gmail.com>"
+}
