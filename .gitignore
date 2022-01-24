@@ -10,3 +10,4 @@ build
 
 # Ingore node enviroment file
 **/.env
+.env.local

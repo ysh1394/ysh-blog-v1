@@ -1,8 +1,8 @@
 {
   "name": "sanity",
-  "private": true,
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "package.json",
   "author": "유승현 <ysh13941394@gmail.com>",
   "license": "UNLICENSED",
@@ -15,6 +15,7 @@
   ],
   "dependencies": {
     "@sanity/base": "^2.25.0",
+    "@sanity/code-input": "^2.25.0",
     "@sanity/core": "^2.25.0",
     "@sanity/default-layout": "^2.25.0",
     "@sanity/default-login": "^2.24.1",
@@ -22,12 +23,16 @@
     "@sanity/eslint-config-studio": "^2.0.0",
     "@sanity/vision": "^2.25.0",
     "eslint": "^8.6.0",
+    "get-youtube-id": "^1.0.1",
     "prop-types": "^15.7",
     "react": "^17.0",
     "react-dom": "^17.0",
+    "react-youtube": "^7.14.0",
     "styled-components": "^5.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-plugin-json": "^3.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:ysh1394/ysh-blog-v1.git"
