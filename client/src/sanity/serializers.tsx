@@ -24,7 +24,6 @@ const serializers = {
 
   code: (node: any) => {
     const { code, language } = node;
-    console.log('code props >>>', node);
 
     if (!code) {
       return null;

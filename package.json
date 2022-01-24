@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "client": "yarn workspace client dev",
-    "sanity": "yarn workspace sanity start"
+    "sanity": "yarn workspace sanity start",
+    "start:client": "yarn workspace client start"
   },
   "author": "ysh1394 <ysh13941394@gmail.com>"
 }

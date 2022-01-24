@@ -40,7 +40,6 @@ const Post = ({ post }: Props) => {
         console.log('err >>>', err);
       });
   };
-  console.log('post >>>', post);
 
   return (
     <>
@@ -236,7 +235,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     }
   `;
 
-  console.log('params >>', params);
   const post = await sanityClient.fetch(postQuery, {
     slug: params?.slug,
   });

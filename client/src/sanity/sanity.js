@@ -40,7 +40,6 @@ export const PortableText = createPortableTextComponent({
         </a>
       ),
       code: ({ node = {} }) => {
-        console.log('node .>', node);
         const { code, language } = node;
         if (!code) {
           return null;
